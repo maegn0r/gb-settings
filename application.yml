@@ -2,7 +2,7 @@ gb.api:
   endpoint:
     category-url: 'http://${gb.api.endpoint.base-uri}/internal/api/v1/category'
     product-url: 'http://${gb.api.endpoint.base-uri}/internal/api/v1/product'
-    manufacturer-url: 'http://${gb.api.endpoint.base-uri}/internal/api/v1/manufacturer'
+#    manufacturer-url: 'http://${gb.api.endpoint.base-uri}/internal/api/v1/manufacturer'
   connection:
     period: 3000 #Mills
     max-period: 5000 #Mills
