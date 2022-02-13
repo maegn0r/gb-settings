@@ -1,6 +1,10 @@
 gb.api.endpoint.base-uri: 'localhost:8080'
 
-spring.datasource:
-  url: 'jdbc:postgresql://localhost:5432/gb_shop'
-  username: 'geek'
-  password: 'geek'
+spring:
+  datasource:
+    url: 'jdbc:postgresql://localhost:5432/gb_shop'
+    username: 'geek'
+    password: 'geek'
+  artemis:
+    password: 'simetraehcapa'
+    user: 'artemis'
