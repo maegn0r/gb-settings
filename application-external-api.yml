@@ -1,0 +1,4 @@
+jwt:
+  token:
+    expired: 86_400_000
+    secret: 'jwtsecret'
