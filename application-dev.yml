@@ -8,3 +8,8 @@ spring:
   artemis:
     password: 'simetraehcapa'
     user: 'artemis'
+
+jwt:
+  token:
+    expired: 86_400_000
+    secret: 'jwtsecret'
